@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <title>employeePayroll</title>
-    <link rel="stylesheet" href="employeepayroll.css">
+    
+    <title>employeePayroll</title>
+   <link rel="stylesheet" href="employeepayroll.css">
   </head>
 <body>
-    
-    <header class="header-content header">
-  <div class="logo-content">
-    <img src="logo.png" width="40%" alt="bridgelabz logo">
-  </div>
-  <div>
+   <header> 
+  <div class="header-content header">
+    <div class="logo-content">
+        <img src="logo.png" width="10%" alt="bridgelabz logo">
+        <div>
     <span class="emp-text">EMPLOYEE</span> 
     <span class="emp-text emp-payroll">PAYROLL</span>
     </div>
-</header>
+    </div>
+  </header>
+    <div class="form-content">
+      <form class="form" action="#" onsubmit="save();return false">
+        <div class="form-head">Employee Payroll Form</div>
+        <div class="row-content">
+          <label class="label text" for="name">NAME</label>
+          <input class="input" type="text" id="name" name="name" placeholder="Your Name.." required>
+      </div>
+    </form>
+    </div>
 </body>
-</html>
 </html>
