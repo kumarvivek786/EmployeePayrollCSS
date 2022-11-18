@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     
-    <title>employeePayroll</title>
-   <link rel="stylesheet" href="employeepayroll.css">
+     <link rel="stylesheet" href="employeepayroll.css">
   </head>
 <body>
    <header> 
@@ -16,6 +15,7 @@
     </div>
     </div>
   </header>
+  
     <div class="form-content">
       <form class="form" action="#" onsubmit="save();return false">
         <div class="form-head">Employee Payroll Form</div>
@@ -23,6 +23,32 @@
           <label class="label text" for="name">NAME</label>
           <input class="input" type="text" id="name" name="name" placeholder="Your Name.." required>
       </div>
+  
+      <div class="row-content">
+        <label class="label text" for="profile">Profile image</label>
+        <div class="profile-radio-content">
+            <label>
+    <input type="radio" id="profile2" name="profile" value="image1" required>
+    <img class="profile" id="image1" src="logo.png">
+  </label>
+            <label>
+    <input type="radio" id="profile2" name="profile" value="image2" required>
+    <img class="profile" id="image2" src="logo.png">
+  </label>
+            <label>
+    <input type="radio" id="profile3" name="profile" value="image3" required>
+    <img class="profile" id="image3" src="logo.png">
+  </label>
+            <label>
+    <input type="radio" id="profile4" name="profile" value="image4" required>
+    <img class="profile" id="image4" src="logo.png">
+  </label>
+  <label>
+    <input type="radio" id="profile5" name="profile" value="image5" required>
+    <img class="profile" id="image5" src="logo.png">
+  </label>
+        </div>
+    </div>
     </form>
     </div>
 </body>
